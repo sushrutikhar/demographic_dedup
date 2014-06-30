@@ -26,8 +26,6 @@ WorkFlow:
 Run command::
 
 ```
-#!java
-
 java -cp .:src/:bin/:lib/*:bin/org/elasticsech/index/analysis/phonetic/* testing >Results.txt
 ```
 
@@ -38,8 +36,6 @@ API calls -
  
 
 ```
-#!java
-
     ParseInputFile obj = new ParseInputFile("input.txt");
     ArrayList<UserDAO> userList = obj.parse();
 ```
@@ -53,9 +49,6 @@ API calls -
 2.  Searching, Adding Doc , deleting
 
 ```
-#!java
-
-
 	indexSearch ES = new indexSearch();
 	Client client = ES.createClient(clusterName,hostName,port);
 
@@ -83,8 +76,6 @@ sample input  ::::
 
 
 ```
-#!java
-
 Mr. Ikhar Sushrut Meghshyam
 0
 20
@@ -101,8 +92,6 @@ sample parsed output :::
 
 
 ```
-#!java
-
 {
 	 salutation :  Mr. 
 	 firstName : Ikhar 
@@ -122,7 +111,6 @@ sample search results :::
 
 
 ```
-#!java
 
 19.344625	6Ho64CP1RAS7pUv7QGzAlg	{lastName=Sushrut, abbrevation=, subDistrict= Bhusawal, street=, postCode= 425201, state= Maharashtra., houseNumber= Plot Number 7, houseName=, village= Gajanan Maharaj Nagar, initial=, age=20, gender=0, district=, salutation= Mr., firstName=Ikhar}
 
@@ -156,8 +144,6 @@ ElasticSearch configurations::
 *config/elasticsearch.yml*
 
 ```
-#!java
-
 cluster.name: elasticsearch
 
 index :
@@ -178,8 +164,6 @@ index :
 *installing phonetic-plugin*
 
 ```
-#!java
-
 bin/plugin -install elasticsearch/elasticsearch-analysis-phonetic/2.1.0
 ```
 
