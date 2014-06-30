@@ -27,13 +27,13 @@ public class testing {
 		Client client = ES.createClient(clusterName,hostName,port);
 		Tuple<Settings, Environment> initialSettings = InternalSettingsPreparer.prepareSettings(EMPTY_SETTINGS, true);
 
-        if (!initialSettings.v2().pluginsFile().exists()) {
-            FileSystemUtils.mkdirs(initialSettings.v2().pluginsFile());
-        }
-        PluginManager pluginManager = new PluginManager(initialSettings.v2(), null, null, null);
-        pluginManager.getListInstalledPlugins();
-        //initialSettings.v1().getClassLoader().loadClass("org.apache.log4j.Logger");
-        //initialSettings.v1().getClassLoader().loadClass("org.elasticsearch.index.analysis.PhoneticTokenFilterFactory");
+	        if (!initialSettings.v2().pluginsFile().exists()) {
+	            FileSystemUtils.mkdirs(initialSettings.v2().pluginsFile());
+	        }
+	        PluginManager pluginManager = new PluginManager(initialSettings.v2(), null, null, null);
+	        pluginManager.getListInstalledPlugins();
+	        initialSettings.v1().getClassLoader().loadClass("org.apache.log4j.Logger");
+	        initialSettings.v1().getClassLoader().loadClass("org.elasticsearch.index.analysis.PhoneticTokenFilterFactory");
 		ES.deleteIndex(client, indexName);
 		ES.createIndex(client, indexName);
 		ES.addDoc(client,indexName, docType,userList);
