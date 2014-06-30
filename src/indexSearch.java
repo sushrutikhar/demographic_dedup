@@ -59,7 +59,7 @@ public class indexSearch {
                         .startObject("filter")
                             .startObject("my_metaphone")
                             	.field("type","phonetic")
-                            	.field("encoder","metaphone")
+                            	.field("encoder","doublemetaphone")
                             	.field("replace","false")
                             .endObject()
                        .endObject()
@@ -70,6 +70,7 @@ public class indexSearch {
         CreateIndexRequestBuilder createIndexRequestBuilder = indices.prepareCreate(indexName);
         createIndexRequestBuilder.setSettings(settings);
         createIndexRequestBuilder.execute().actionGet();
+        System.err.println("Index :"+indexName+" is created successfully");
 	}
 	
 	public void addDoc(Client client,String indexName,String docType,String docId,UserDAO user) throws IOException

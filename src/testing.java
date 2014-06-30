@@ -6,7 +6,6 @@ import org.elasticsearch.client.Client;
 import org.elasticsearch.common.collect.Tuple;
 import org.elasticsearch.common.io.FileSystemUtils;
 import org.elasticsearch.common.settings.Settings;
-import org.elasticsearch.common.unit.TimeValue;
 import org.elasticsearch.env.Environment;
 import org.elasticsearch.node.internal.InternalSettingsPreparer;
 import org.elasticsearch.plugins.PluginManager;
@@ -32,12 +31,12 @@ public class testing {
         }
         PluginManager pluginManager = new PluginManager(initialSettings.v2(), null, null, null);
         pluginManager.getListInstalledPlugins();
-        //initialSettings.v1().getClassLoader().loadClass("org.apache.log4j.Logger");
-        //initialSettings.v1().getClassLoader().loadClass("org.elasticsearch.index.analysis.PhoneticTokenFilterFactory");
+        initialSettings.v1().getClassLoader().loadClass("org.apache.log4j.Logger");
+        initialSettings.v1().getClassLoader().loadClass("org.elasticsearch.index.analysis.PhoneticTokenFilterFactory");
 		ES.deleteIndex(client, indexName);
 		ES.createIndex(client, indexName);
 		ES.addDoc(client,indexName, docType,userList);
-		System.err.println("\n"+ES.getNumberDocs(client, indexName, docType));
-		SearchResponse response = ES.searchDoc(client, indexName, docType, userList.get(userList.size()-1));
+		System.out.println("\n"+ES.getNumberDocs(client, indexName, docType));
+		SearchResponse response = ES.searchDoc(client, indexName, docType, userList.get(10));
 	}
 }
