@@ -30,6 +30,11 @@ java -cp .:src/:bin/:lib/*:bin/org/elasticsech/index/analysis/phonetic/* testing
 ```
 
 
+*Running Executable dedup.jar*
+```
+java -jar dedup.jar testing >Results.txt
+```
+
 API calls - 
  
 1.  Parser
