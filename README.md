@@ -26,7 +26,7 @@ WorkFlow:
 Run command::
 
 ```
-java -cp .:src/:bin/:lib/*:bin/org/elasticsech/index/analysis/phonetic/* testing >Results.txt
+java -cp .:src/:bin/:lib/*:bin/org/elasticsearch/index/analysis/phonetic/* testing >Results.txt
 ```
 
 
