@@ -41,7 +41,7 @@ tolerance=1e-5
 #
 # Training input
 #
-#trainFile=training.txt
+#trainFile=name.train
 testFile=name.test
 #justify=true
 useSum=true

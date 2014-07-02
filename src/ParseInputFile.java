@@ -6,25 +6,28 @@ public class ParseInputFile {
 	private String inputFile = null;
 	private final String namePropFile = "name.prop"; 
 	private final String addressPropFile = "address.prop";
-	public ParseInputFile(String inputFileName){
+	private Parse nameParser;
+	private Parse addressParser;
+	
+	public ParseInputFile(String inputFileName) throws Exception{
 		inputFile = inputFileName;
+		nameParser = new Parse(namePropFile);
+		addressParser = new Parse(addressPropFile);
+		nameParser.trainData();
+		addressParser.trainData();
 	}
 	
-	
-	public ArrayList<UserDAO> parse() throws Exception{
+	public ArrayList<UserDTO> parse() throws Exception{
 		
 		BufferedReader br = null;
 		br = new BufferedReader(new FileReader(inputFile));
-		Parse nameParser = new Parse(namePropFile);
-		Parse addressParser = new Parse(addressPropFile);
-		nameParser.trainData();
-		addressParser.trainData();
+
 		String line;
 		ArrayList<String> inList = new ArrayList<String>();
 		ArrayList<String> outList = new ArrayList<String>();
-		ArrayList<UserDAO> userList = new ArrayList<UserDAO>();
+		ArrayList<UserDTO> userList = new ArrayList<UserDTO>();
 		ArrayList<String> addressList = new ArrayList<String>();
-		UserDAO user;
+		UserDTO user;
 		int flag = 0;
 		while((line = br.readLine()) != null)
 		{
@@ -96,8 +99,8 @@ public class ParseInputFile {
 	}
 	
 	
-	private UserDAO structureData(ArrayList<String> list){
-		UserDAO user = new UserDAO();
+	private UserDTO structureData(ArrayList<String> list){
+		UserDTO user = new UserDTO();
 		for(String str : list){
 			String[] tokens = str.trim().split("\\t");
 			String key = tokens[2],value = tokens[0];
@@ -301,5 +304,25 @@ public class ParseInputFile {
 			}
 		}
 		return out;
+	}
+
+
+	public Parse getNameParser() {
+		return nameParser;
+	}
+
+
+	public void setNameParser(Parse nameParser) {
+		this.nameParser = nameParser;
+	}
+
+
+	public Parse getAddressParser() {
+		return addressParser;
+	}
+
+
+	public void setAddressParser(Parse addressParser) {
+		this.addressParser = addressParser;
 	}
 }

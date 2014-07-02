@@ -179249,41 +179249,38 @@
 	 postCode :  682035 
 }
 
-0 [main] DEBUG org.elasticsearch.plugins  - [Death's Head II] lucene property is not set in plugin es-plugin.properties file. Skipping test.
-3 [main] DEBUG org.elasticsearch.plugins  - [Death's Head II] [/home/sushrut/Desktop/dedup/plugins/analysis-phonetic/_site] directory does not exist.
-8 [main] DEBUG org.elasticsearch.plugins  - [Death's Head II] lucene property is not set in plugin es-plugin.properties file. Skipping test.
-8 [main] DEBUG org.elasticsearch.plugins  - [Death's Head II] [/home/sushrut/Desktop/dedup/plugins/analysis-phonetic/_site] directory does not exist.
-9 [main] DEBUG org.elasticsearch.plugins  - [Death's Head II] lucene property is not set in plugin es-plugin.properties file. Skipping test.
-9 [main] DEBUG org.elasticsearch.plugins  - [Death's Head II] [/home/sushrut/Desktop/dedup/plugins/analysis-phonetic/_site] directory does not exist.
-10 [main] DEBUG org.elasticsearch.plugins  - [Death's Head II] lucene property is not set in plugin es-plugin.properties file. Skipping test.
-10 [main] DEBUG org.elasticsearch.plugins  - [Death's Head II] [/home/sushrut/Desktop/dedup/plugins/analysis-phonetic/_site] directory does not exist.
-11 [main] DEBUG org.elasticsearch.plugins  - [Death's Head II] [/home/sushrut/Desktop/dedup/plugins/analysis-phonetic/_site] directory does not exist.
-11 [main] INFO org.elasticsearch.plugins  - [Death's Head II] loaded [analysis-phonetic], sites []
-45 [main] DEBUG org.elasticsearch.common.compress.lzf  - using [UnsafeChunkDecoder] decoder
-566 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [generic], type [cached], keep_alive [30s]
-572 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [index], type [fixed], size [4], queue_size [200]
-586 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [bulk], type [fixed], size [4], queue_size [50]
-586 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [get], type [fixed], size [4], queue_size [1k]
-586 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [search], type [fixed], size [12], queue_size [1k]
-586 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [suggest], type [fixed], size [4], queue_size [1k]
-587 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [percolate], type [fixed], size [4], queue_size [1k]
-587 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [management], type [scaling], min [1], size [5], keep_alive [5m]
-587 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [flush], type [scaling], min [1], size [2], keep_alive [5m]
-588 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [merge], type [scaling], min [1], size [2], keep_alive [5m]
-588 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [refresh], type [scaling], min [1], size [2], keep_alive [5m]
-588 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [warmer], type [scaling], min [1], size [2], keep_alive [5m]
-588 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [snapshot], type [scaling], min [1], size [2], keep_alive [5m]
-588 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [snapshot_data], type [scaling], min [1], size [5], keep_alive [5m]
-588 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [optimize], type [fixed], size [1], queue_size [null]
-588 [main] DEBUG org.elasticsearch.threadpool  - [Death's Head II] creating thread_pool [bench], type [scaling], min [1], size [2], keep_alive [5m]
-772 [main] DEBUG org.elasticsearch.transport.netty  - [Death's Head II] using worker_count[8], port[9300-9400], bind_host[null], publish_host[null], compress[false], connect_timeout[30s], connections_per_node[2/3/6/1/1], receive_predictor[512kb->512kb]
-774 [main] DEBUG org.elasticsearch.client.transport  - [Death's Head II] node_sampler_interval[5s]
-798 [main] DEBUG org.elasticsearch.netty.channel.socket.nio.SelectorUtil  - Using select timeout of 500
-798 [main] DEBUG org.elasticsearch.netty.channel.socket.nio.SelectorUtil  - Epoll-bug workaround enabled = false
-833 [main] DEBUG org.elasticsearch.client.transport  - [Death's Head II] adding address [[#transport#-1][ubuntu][inet[localhost/127.0.0.1:9300]]]
-864 [main] DEBUG org.elasticsearch.transport.netty  - [Death's Head II] connected to node [[#transport#-1][ubuntu][inet[localhost/127.0.0.1:9300]]]
-990 [main] DEBUG org.elasticsearch.transport.netty  - [Death's Head II] connected to node [[Phoolwati • Delicated as a flower ][_w4TPTE9QNSXZhRgeO_nyg][ubuntu][inet[localhost/127.0.0.1:9300]]]
-
+0 [main] DEBUG org.elasticsearch.plugins  - [Jade Dragon] lucene property is not set in plugin es-plugin.properties file. Skipping test.
+3 [main] DEBUG org.elasticsearch.plugins  - [Jade Dragon] [/home/sushrut/workspace/dedup/plugins/analysis-phonetic/_site] directory does not exist.
+8 [main] DEBUG org.elasticsearch.plugins  - [Jade Dragon] lucene property is not set in plugin es-plugin.properties file. Skipping test.
+8 [main] DEBUG org.elasticsearch.plugins  - [Jade Dragon] [/home/sushrut/workspace/dedup/plugins/analysis-phonetic/_site] directory does not exist.
+9 [main] DEBUG org.elasticsearch.plugins  - [Jade Dragon] lucene property is not set in plugin es-plugin.properties file. Skipping test.
+9 [main] DEBUG org.elasticsearch.plugins  - [Jade Dragon] [/home/sushrut/workspace/dedup/plugins/analysis-phonetic/_site] directory does not exist.
+11 [main] DEBUG org.elasticsearch.plugins  - [Jade Dragon] [/home/sushrut/workspace/dedup/plugins/analysis-phonetic/_site] directory does not exist.
+11 [main] INFO org.elasticsearch.plugins  - [Jade Dragon] loaded [analysis-phonetic], sites []
+49 [main] DEBUG org.elasticsearch.common.compress.lzf  - using [UnsafeChunkDecoder] decoder
+529 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [generic], type [cached], keep_alive [30s]
+535 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [index], type [fixed], size [4], queue_size [200]
+536 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [bulk], type [fixed], size [4], queue_size [50]
+536 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [get], type [fixed], size [4], queue_size [1k]
+536 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [search], type [fixed], size [12], queue_size [1k]
+536 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [suggest], type [fixed], size [4], queue_size [1k]
+537 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [percolate], type [fixed], size [4], queue_size [1k]
+537 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [management], type [scaling], min [1], size [5], keep_alive [5m]
+537 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [flush], type [scaling], min [1], size [2], keep_alive [5m]
+537 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [merge], type [scaling], min [1], size [2], keep_alive [5m]
+537 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [refresh], type [scaling], min [1], size [2], keep_alive [5m]
+537 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [warmer], type [scaling], min [1], size [2], keep_alive [5m]
+538 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [snapshot], type [scaling], min [1], size [2], keep_alive [5m]
+538 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [snapshot_data], type [scaling], min [1], size [5], keep_alive [5m]
+538 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [optimize], type [fixed], size [1], queue_size [null]
+538 [main] DEBUG org.elasticsearch.threadpool  - [Jade Dragon] creating thread_pool [bench], type [scaling], min [1], size [2], keep_alive [5m]
+571 [main] DEBUG org.elasticsearch.transport.netty  - [Jade Dragon] using worker_count[8], port[9300-9400], bind_host[null], publish_host[null], compress[false], connect_timeout[30s], connections_per_node[2/3/6/1/1], receive_predictor[512kb->512kb]
+573 [main] DEBUG org.elasticsearch.client.transport  - [Jade Dragon] node_sampler_interval[5s]
+597 [main] DEBUG org.elasticsearch.netty.channel.socket.nio.SelectorUtil  - Using select timeout of 500
+597 [main] DEBUG org.elasticsearch.netty.channel.socket.nio.SelectorUtil  - Epoll-bug workaround enabled = false
+622 [main] DEBUG org.elasticsearch.client.transport  - [Jade Dragon] adding address [[#transport#-1][ubuntu][inet[localhost/127.0.0.1:9300]]]
+651 [main] DEBUG org.elasticsearch.transport.netty  - [Jade Dragon] connected to node [[#transport#-1][ubuntu][inet[localhost/127.0.0.1:9300]]]
+779 [main] DEBUG org.elasticsearch.transport.netty  - [Jade Dragon] connected to node [[Phoolwati • Delicated as a flower ][_w4TPTE9QNSXZhRgeO_nyg][ubuntu][inet[localhost/127.0.0.1:9300]]]
 Searching for User:{
 	 firstName : abc 
 	 houseNumber :  NORT 
@@ -179296,202 +179293,202 @@ Searching for User:{
 
 
 ------------------------------
-17.164087	j_zPJPCwT_205cZeYfk_JA	{lastName=, abbrevation=, subDistrict=, street= ROAD, postCode= 682035, state=PUKALAKKATTU LAKSHMI TD, houseNumber= NORT, houseName= BAI TOWER, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+17.118685	fYBQdx67QTaV16iSYrLmHw	{lastName=, abbrevation=, subDistrict=, street= ROAD, postCode= 682035, state=PUKALAKKATTU LAKSHMI TD, houseNumber= NORT, houseName= BAI TOWER, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-5.0655413	mnJsw1SiT7yMT9dYA997Qw	{lastName=, abbrevation=, subDistrict=, street=, postCode= 846004, state=LAKSHMI BIHAR, houseNumber=, houseName=VILL. O. DIST, village=DEKULICHATTI P. SONKI VIA SAGAR DARBHANGA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+7.596268	YD-5Op0dTsWIOoJFkJcPrg	{lastName=, abbrevation=, subDistrict= KAVADIGUDA, street=, postCode=, state= LAKSHMI, houseNumber=1 3 176/35/229/7 BHAGYA, houseName=, village=NAGAR HYDERABAD, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-5.045169	dQoPzkr_Q02dsjVA0JAYIg	{lastName=, abbrevation=, subDistrict=, street= PERUMBAVOORDISTRICT, postCode=, state=, houseNumber=, houseName=, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+5.2241926	A97KbNkZRS2i908Slz7WqQ	{lastName=, abbrevation=, subDistrict=, street= KURUPPAMPADYDISTRICT, postCode=, state=, houseNumber=, houseName=, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-4.6881976	emh2l9oLRg26K63YipMnfw	{lastName=, abbrevation=, subDistrict=, street=, postCode= 682036, state=, houseNumber= 28/94, houseName= PANAMPILLY AVENUE, village=KOCHI BRANCH PANAMPILLY NAGAR KOCHI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+4.723104	D1CpFGDXTDieOHyDhnFH0g	{lastName=, abbrevation=, subDistrict=, street=, postCode= 846004, state=LAKSHMI BIHAR, houseNumber=, houseName=VILL. O. DIST, village=DEKULICHATTI P. SONKI VIA SAGAR DARBHANGA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-4.2162	3NRNHNr3RaOoWlPoWIZizg	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=AJAY VIHAR KERALA, houseNumber= 14, houseName= PB NO., village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+4.311794	NETPO8iJQ6OFhyvTV001bA	{lastName=, abbrevation=, subDistrict=, street=, postCode= 682003, state= KERALA., houseNumber=, houseName=W. ISLAND BRANCH WILLINGTON ISLAND COCHIN 3. COCHIN, village= ERNAKULAM., initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-4.2162	Z_euFDJASRaLrANdJpDgnA	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= MARADUDISTRICT, houseNumber=, houseName=, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+4.00627	rGkHeGXRRqK7X4AasGHyEg	{lastName=, abbrevation=, subDistrict=, street= AIRPORT ROAD, postCode=, state=MAVELIPURAM KERALA, houseNumber= C PORT, houseName= O., village=BHASKARA KAKKANAD P. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-3.8680682	bZEV1Yj8QoiJMCuBglgjlQ	{lastName=, abbrevation=, subDistrict=, street= AIRPORT ROAD, postCode=, state=MAVELIPURAM KERALA, houseNumber= C PORT, houseName= O., village=BHASKARA KAKKANAD P. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+3.8886483	Bl1wjjI3TG23940nVxrNzA	{lastName=, abbrevation=, subDistrict=, street=, postCode= 682036, state=, houseNumber= 28/94, houseName= PANAMPILLY AVENUE, village=KOCHI BRANCH PANAMPILLY NAGAR KOCHI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-3.6844714	YeoLyOZ5QpK4Q24oin8XdA	{lastName=, abbrevation=, subDistrict=, street=, postCode= 682003, state= KERALA., houseNumber=, houseName=W. ISLAND BRANCH WILLINGTON ISLAND COCHIN 3. COCHIN, village= ERNAKULAM., initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+3.3503313	AzPLSkG8R5KHEy3PnFrdaQ	{lastName=, abbrevation=, subDistrict=, street= MARKET ROAD, postCode=, state= KERALA, houseNumber=20/134 683 101, houseName=GOPITEX BLDG DIST, village=ALUVA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-3.6020977	IVLvL95wQYa1_wCFTzOyrg	{lastName=, abbrevation=, subDistrict=, street=M G ROAD NORTH END, postCode=, state=, houseNumber=, houseName=, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+3.277644	1RJVlgsdTNO4Fh3lM92fAw	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName=VIA KUNNACKALDISTRICT, village=VALAKAM ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-3.1653187	LE1j4PmZS3SRvbuZ2ug6NQ	{lastName=, abbrevation=, subDistrict= G., street=, postCode=, state=, houseNumber=ROAD 1837/38/F 682 035, houseName=, village=M. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+3.2471783	DGH2NV7lQvyn4NubQnpgaQ	{lastName=, abbrevation=, subDistrict= G., street=ROAD NORTH END, postCode= 682018, state=, houseNumber=, houseName=, village=M. ERNAKULUM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-3.1653187	QWShk4A3SnyQRGCYxrPJHQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= DISTRICT, houseNumber=, houseName=KEEZHILLAM P. O., village=MANOOR ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+3.246458	eN91L_N7QbGWSMNYR-6h_A	{lastName=, abbrevation=, subDistrict=, street= MOOTHAKUNNAMDISTRICT, postCode=, state=, houseNumber=, houseName=, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-3.0910504	ZYar5DvzRSmPr_QyI4H0MA	{lastName=, abbrevation=, subDistrict=, street= PALLIPARAMBUKAVU ROAD, postCode= 682301, state=TRIPUNITHRA DISTT. KERALA, houseNumber=, houseName= AISHWARYA MARKET JUNCTION, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+3.246458	mbnfG8XjRzONj6uuiYB_EA	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName= VADAKKEKKARADISTRICT, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-3.053548	caqqfrd2Q3CgIIvTzt1jZw	{lastName=, abbrevation=, subDistrict= G., street=ROAD NORTH END, postCode= 682018, state=, houseNumber=, houseName=, village=M. ERNAKULUM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+3.159987	v13CemCESpqnBsmy60hyZQ	{lastName=, abbrevation=, subDistrict=, street=M G ROAD NORTH END, postCode=, state=, houseNumber=, houseName=, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-3.0471702	aWmPqk1TTQmoO8bgrrW-Vw	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= DIST., houseNumber=210 5/848 682 002, houseName=POST BOX NO. PALACE ROAD COCHIN, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+3.1290617	C5HvPz7fTrCmTiOSvqOSEw	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= DIST., houseNumber=210 5/848 682 002, houseName=POST BOX NO. PALACE ROAD COCHIN, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-3.0471702	32R80zkxSxi2hepPNm5vGQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName= VADAKKEKKARADISTRICT, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+3.1290617	WvvOrx4bR1KiBZVvl_ehhQ	{lastName=, abbrevation=, subDistrict=, street= NORTH PARAVUR, postCode= 685513, state=, houseNumber=, houseName=MATHEW PAULO ARCADE FIRST FLOOR KMK JUNCTION CITY PIN CODE, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.982132	-nOXZ2v6ShKjYpdQNtEFqg	{lastName=, abbrevation=, subDistrict=, street= SAHEDARAN AYYAPPAN ROAD, postCode= 682016, state= KERALA, houseNumber=, houseName=GEO TOWERS IIND FLOOR (COCHIN)DIST, village=PALLIMUKKU KOCHI ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+3.0615025	Tfwc7iVHRee-iU0DrfimsQ	{lastName=, abbrevation=, subDistrict=, street= M G ROAD, postCode= 682016, state=, houseNumber=, houseName= COCHIN., village=ERNAKULAM BRANCH PALLIMUKKU ERNAKULAM ERNAKULAM., initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.7028646	6YNKAzdcQp2MtCdDyk0hpA	{lastName=, abbrevation=, subDistrict=, street= MARKET ROAD, postCode=, state= KERALA, houseNumber=20/134 683 101, houseName=GOPITEX BLDG DIST, village=ALUVA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.4453154	xV1hlJSFSN-VkaAYa3Nt8A	{lastName=, abbrevation=, subDistrict=, street= SEA PORT, postCode=, state= KERALA, houseNumber=C/O X/95 G K 682037., houseName=C TOWERS NEAR COCHIN ECONOMIC ZONE CSEZ DIST, village=AIR PORT RD SPECIAL ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.6948626	EE7xMNwSTUuAQd-enshS7w	{lastName=, abbrevation=, subDistrict= G., street=, postCode=, state= RD, houseNumber=NO. 1792XXX BY 537, houseName= COCHIN, village=P. B. M. ERNAKULLAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.3625195	EbeElT6qQimV9p5Cxbf7lQ	{lastName=, abbrevation=, subDistrict=, street= S A ROAD, postCode=, state= KERALA, houseNumber=682 019., houseName=, village=NEAR WELCARE HOSPITAL VYTILLA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.538702	TV-IfR1ARtiU-ZUyENErjQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= KERALA, houseNumber= 682301., houseName=GROUND FLOOR PALATHINKAL COMPLEX NORTH FORT GATE, village=THRIPUNITHURA DT. ERNAKULAM THRIPUNITHURA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.3043697	XqoFBLlqQsiXLoDwWz3CZg	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber= 6820, houseName=GROUND FLOOR OPP GEORGE CHURCH, village=PALLIPADAN HIGHLIGHT ST. EDAPPALLY ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.538702	23pw008hS5eMQPErmQDK5g	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName=KUZHIPILLIL BLG DIST, village=ANCHELPETTY P. OPIRAVOM ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.2801783	eMSap4vgQnyrWDrdMbbxPA	{lastName=, abbrevation=, subDistrict= G., street=, postCode=, state=, houseNumber=ROAD 1837/38/F 682 035, houseName=, village=M. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.3362746	23Hf5hRxQt2Pjs6Q8Oj7mQ	{lastName=, abbrevation=, subDistrict= G., street= ROAD, postCode=, state=, houseNumber=NO. 1088, houseName=, village=P. B. M. ERNAKULAM KOCHI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.2517235	JtDPQJ8CSCuSQE_7UAJdHg	{lastName=, abbrevation=, subDistrict=, street= SAHEDARAN AYYAPPAN ROAD, postCode= 682016, state= KERALA, houseNumber=, houseName=GEO TOWERS IIND FLOOR (COCHIN)DIST, village=PALLIMUKKU KOCHI ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.288403	SvR61uJwT6a_u7d5Mssp8Q	{lastName=, abbrevation=, subDistrict=, street= ROAD, postCode=, state=, houseNumber=, houseName=SAI TOWER SAI VIHAR, village=SHANTI PURAM RAI BARELI LUCKNOW, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.217146	gLzCkWVsRT-1nsMmyGMudA	{lastName=, abbrevation=, subDistrict=, street=NEAR LITTLE MC ROAD, postCode= 683572, state= DISTRICT, houseNumber=, houseName=SP TOWERS FIRST FLOOR FLOWER HOSPITAL, village=ANGAMALY ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.2375145	TJyAUB7AScGc_TIPkKEVgA	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= EZHIKKARADISTRICT, houseNumber=, houseName= O., village=P. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.1128285	4dP2zI23Tq6pTcNfYyJrAQ	{lastName=, abbrevation=, subDistrict=, street= ROAD, postCode= 683101, state= KERALA, houseNumber= 659, houseName=MUKKATH PLAZA BYE PASS JUNCTION DIST, village=ALWAYE ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.2375145	D4xajpLpTuKEGIWDjKk7dw	{lastName=, abbrevation=, subDistrict=, street= ROADDISTRICT, postCode=, state=, houseNumber=, houseName= MAIN, village=PARAVUR ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.052632	MYqjzzCSRzGtEzsOxq6mgA	{lastName=, abbrevation=, subDistrict=, street= MAIN ROAD, postCode= 682301, state= KERALA, houseNumber= XVII/324A, houseName= ABHAYAM BUILDING, village=DOOR NO S. N. FUNCTION THRIPUNITHURA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.2375145	8JvO06PNSdOk6fpBqI6nYA	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName=VIA KUNNACKALDISTRICT, village=VALAKAM ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.0372176	t9ARyWrVQeqlq23ylMJLAg	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= EZHIKKARADISTRICT, houseNumber=, houseName= O., village=P. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.2253938	3NPMaNQ_THe1Q4ZXhTnG3g	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber= 6820, houseName=GROUND FLOOR OPP GEORGE CHURCH, village=PALLIPADAN HIGHLIGHT ST. EDAPPALLY ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.0372176	Z6XxAoQ5QEq1uAJ1nPZlew	{lastName=, abbrevation=, subDistrict=, street= ROADDISTRICT, postCode=, state=, houseNumber=, houseName= MAIN, village=PARAVUR ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.2140768	KbyJfxWiS2a4Z3gIrvSvqg	{lastName=, abbrevation=, subDistrict=, street= NORTH BRANCH, postCode= 682018, state=, houseNumber= 36/637, houseName= ERNAKULAM NORTH, village=ERNAKU A BANNERJI RD. COCHI ERNAKULAM ERNAKULAM., initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.0372176	xkA5UaWKSUmm2smUlBNWzg	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName=, village=THIRUVANIYURDISTRICT ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.1213703	eeXPmGKSTD-SzodNAzl8Vw	{lastName=, abbrevation=, subDistrict=, street= ROADDISTRICT, postCode=, state=, houseNumber=, houseName=, village=PARAVUR MARKET ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.034212	GgbB52qpTm6jwKbE1sNsfw	{lastName=, abbrevation=, subDistrict=, street=ROAD PERUMBAVOOR, postCode=, state=DIST. KERALA, houseNumber=VI /377A VII /326 683 542., houseName=GROUND FLR. DEVI TOWERS, village=M. C. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.1213703	tRId-1_dR1SjCnAh2Xj6pw	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= DIST., houseNumber=, houseName= O., village=P. MARAMPALLYALUVA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+2.000389	74NBB-OFTSSI1aOwpdjKZA	{lastName=, abbrevation=, subDistrict= G., street=, postCode=, state= RD, houseNumber=NO. 1792XXX BY 537, houseName= COCHIN, village=P. B. M. ERNAKULLAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-2.0118454	R5uCUHVWTle3BJzElb8d9Q	{lastName=, abbrevation=, subDistrict=, street=ROAD PERUMBAVOOR, postCode=, state=DIST. KERALA, houseNumber=VI /377A VII /326 683 542., houseName=GROUND FLR. DEVI TOWERS, village=M. C. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.9567422	J33uNSDxSSWR_u93GHrfFg	{lastName=, abbrevation=, subDistrict=, street= MG ROAD, postCode= 682016, state=, houseNumber=, houseName= COLLIS ESTATE, village=2 ND FLOOR RAVIPURAM ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.9122277	6Cff3tYITzWat435GrB7ew	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName=, village=THIRUVANIYURDISTRICT ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.9205668	x-1Sy1BtRK6133TTR9mR_w	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=DIST. CHHATTISGARH., houseNumber= 08, houseName= BAI SAGAR COMPLEX, village=WARD NO. BAIKUNTHPUR KORIA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.9118443	7jVyturLRFSSbZBGv0F2xg	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=DIST. CHHATTISGARH., houseNumber= 08, houseName= BAI SAGAR COMPLEX, village=WARD NO. BAIKUNTHPUR KORIA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.866798	wdP_pFHnSHKoIeqPx6xRKA	{lastName=, abbrevation=, subDistrict=, street= ERNAKULAM MAIN ROAD, postCode=, state=, houseNumber=34/1860 A 682 025, houseName=FIRST FLOOR PALARIVATTOM PO, village=ALWAYE MAMANGALAM ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.9057462	-m0n8Fe5R266wycafOk5Sg	{lastName=, abbrevation=, subDistrict=, street= S A ROAD, postCode=, state= KERALA, houseNumber=682 019., houseName=, village=NEAR WELCARE HOSPITAL VYTILLA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.8285309	0zx86lXwQgSyNSB2icIIJw	{lastName=, abbrevation=, subDistrict=, street= NH47, postCode= 683572, state= PO, houseNumber=, houseName=1ST FLOOR BOOK CENTRE DIST, village=S. M. ANGAMALY ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.8428143	IeSFemwNRnKd61k5LuWpWA	{lastName=, abbrevation=, subDistrict=, street= MOOTHAKUNNAMDISTRICT, postCode=, state=, houseNumber=, houseName=, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.8173819	NOSzuSbyReyvxQkfdrCKZQ	{lastName=, abbrevation=, subDistrict=, street= PALLIPARAMBUKAVU ROAD, postCode= 682301, state=TRIPUNITHRA DISTT. KERALA, houseNumber=, houseName= AISHWARYA MARKET JUNCTION, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.8428143	yOT2e0fgQ2mECVRKBQjXjQ	{lastName=, abbrevation=, subDistrict=, street= KOONAMMAVUDISTRICT, postCode=, state=, houseNumber=, houseName=, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.7908478	mdZBmdwwSbaQhiGy1iN8Qg	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=AJAY VIHAR KERALA, houseNumber= 14, houseName= PB NO., village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.8428143	klmb3EttSTK-ErGIqsYlxg	{lastName=, abbrevation=, subDistrict=, street= KURUPPAMPADYDISTRICT, postCode=, state=, houseNumber=, houseName=, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.7908478	1j0bMBNZQ6iV_T62p6gmDQ	{lastName=, abbrevation=, subDistrict=, street= KOONAMMAVUDISTRICT, postCode=, state=, houseNumber=, houseName=, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.8428143	Kcmy84D5Ssmx3xlEzciijg	{lastName=, abbrevation=, subDistrict=, street= NORTH PARAVUR, postCode= 685513, state=, houseNumber=, houseName=MATHEW PAULO ARCADE FIRST FLOOR KMK JUNCTION CITY PIN CODE, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.7908478	sRHf-C2wQla0rCWyuLLsXQ	{lastName=, abbrevation=, subDistrict=, street= PERUMBAVOORDISTRICT, postCode=, state=, houseNumber=, houseName=, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.8359628	osMCc6zhTxKdVs7CiGDVOA	{lastName=, abbrevation=, subDistrict=, street= ERNAKULAM MAIN ROAD, postCode=, state=, houseNumber=34/1860 A 682 025, houseName=FIRST FLOOR PALARIVATTOM PO, village=ALWAYE MAMANGALAM ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.7908478	TB2j4d54QOK1KQpvja9PXQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= MARADUDISTRICT, houseNumber=, houseName=, village= ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.7946912	MAdod5GxQVORa03Yu1Fuhg	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber= 29/380 E N, houseName=MADHA BUILDINGS H BYPASS, village=47THYKOODAM VYTILLA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.6341373	PdEREcoxTzaMt8bTCqWdbQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= UDYOGAMANDALDISTRICT, houseNumber=NO. 12, houseName=, village=P. B. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.7946912	M-qh2ppWTUa9PMCRKPsuTg	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= UDYOGAMANDALDISTRICT, houseNumber=NO. 12, houseName=, village=P. B. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.6256595	Ah77vdZwQ9y3dCMatKcHKg	{lastName=, abbrevation=, subDistrict= G., street=NEAR SHIPYARD PROJECT ROAD, postCode= 682016, state= KERALA, houseNumber=NO. 1728, houseName= DIST, village=P. B. RAVIPURAM TALUKA PARNER M. PERUMANOOR KOCHI ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.7946912	9Fkp24JUTNWfwYAeRziJuQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= DISTRICT, houseNumber=, houseName=, village=KALYANI CHAMBERS KUNDUNGASSERYNAYARAMBAKAM ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.5749177	YiFCP1cyRs2QXebCNwlV2g	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= KERALA, houseNumber= 682301., houseName=GROUND FLOOR PALATHINKAL COMPLEX NORTH FORT GATE, village=THRIPUNITHURA DT. ERNAKULAM THRIPUNITHURA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.7929008	QvvwjSNRR9SiPPTbRcUI8w	{lastName=, abbrevation=, subDistrict=, street=, postCode= 682002, state=, houseNumber= PB 222, houseName=PALACE ROAD ), village=COCHIN BRANCH MATTANCHERY (ERNAKULAM DT. CNCHIN, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.5749177	MdJg4tmsSeSCH4-3IhxFAQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= DIST., houseNumber=, houseName= O., village=P. MARAMPALLYALUVA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.7336435	gbJ8pAiDSmKv9xWaiplmNg	{lastName=, abbrevation=, subDistrict=, street= M G ROAD, postCode= 682016, state=, houseNumber=, houseName= COCHIN., village=ERNAKULAM BRANCH PALLIMUKKU ERNAKULAM ERNAKULAM., initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.5749177	QdDCJJ5MTceAeaIjmqnhMg	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName= DIST, village=PANDAPPILLYVIA ARAKUZHA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.6767573	spk_IVCqT7G6exL1qA0_lQ	{lastName=, abbrevation=, subDistrict=, street= SEA PORT, postCode=, state= KERALA, houseNumber=C/O X/95 G K 682037., houseName=C TOWERS NEAR COCHIN ECONOMIC ZONE CSEZ DIST, village=AIR PORT RD SPECIAL ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.5749177	P3ixgweoRESf8Raa76ZTCA	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= DISTRICT, houseNumber=, houseName= O., village=MUVATTUPUZHA MARKET P. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.6041219	B0CxPyoeS0iIEX43BompUw	{lastName=, abbrevation=, subDistrict= G., street= ROAD, postCode=, state=, houseNumber=, houseName= COLLIS ESTATE, village=2ND FLOORM. ERNAKULAM KOCHI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.5749177	PwV-NS-_SSqy97vGQgowAQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName=KUZHIPILLIL BLG DIST, village=ANCHELPETTY P. OPIRAVOM ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.5416104	ZfGeBRtzTzuQ58rdT8x8bw	{lastName=, abbrevation=, subDistrict=, street= JESSORE ROAD, postCode= 700124, state=, houseNumber= 57/A NORTH, houseName=, village=BARASAT KOLKATA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.5592148	z1zALFdmRjGWhl3Urb7evA	{lastName=, abbrevation=, subDistrict=, street= ROAD, postCode=, state=, houseNumber=, houseName=SAI TOWER SAI VIHAR, village=SHANTI PURAM RAI BARELI LUCKNOW, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.5339136	j5GBDEdHSK6W_3v9E3t4Gw	{lastName=, abbrevation=, subDistrict=, street= NH47, postCode= 683572, state= PO, houseNumber=, houseName=1ST FLOOR BOOK CENTRE DIST, village=S. M. ANGAMALY ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.5082082	cUKv0UjkTRKbR8VeyKveqA	{lastName=, abbrevation=, subDistrict= G., street= ROAD, postCode=, state=, houseNumber=NO. 1088, houseName=, village=P. B. M. ERNAKULAM KOCHI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.5339136	Z0tkn1pNRpST6-pu0BTRAA	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= DISTRICT, houseNumber=, houseName= O., village=MUVATTUPUZHA MARKET P. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.4607154	FN82OS_HTRCC3tWkBsQIaQ	{lastName=, abbrevation=, subDistrict=, street= KUNDAM ROAD, postCode= 482005, state= PRADESH, houseNumber=, houseName= DIST, village=AT PIPARIA POST KHAMARIA KATNI MADHYA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.5184087	SF1qLeysRta358pMhxoWWA	{lastName=, abbrevation=, subDistrict=, street= KADAVANTHARA ROAD, postCode= 682017, state= KERALA, houseNumber=, houseName=PARIYATH BUILDING ERNAKULAM DISTRICT, village=KUMARANSAN JUNCTION KALOOR KALOOR (PO), initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.4325972	EsLexoSgTo-m7KhNzh7PtQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName=O. PALLIPORTDISTRICT, village=SREE NARAYAN BHAVAN P. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.5045485	kYOxlcUoREyxdUR5u-oiYg	{lastName=, abbrevation=, subDistrict=, street= S A ROAD, postCode= 682020, state=, houseNumber=, houseName=KHALLIL BUILDING COCHIN, village= KADAVANTHRA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.3011593	doFpt2RLRESoC06XZ0_gqQ	{lastName=, abbrevation=, subDistrict=, street= NORTH BRANCH, postCode= 682018, state=, houseNumber= 36/637, houseName= ERNAKULAM NORTH, village=ERNAKU A BANNERJI RD. COCHI ERNAKULAM ERNAKULAM., initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.4491082	jby28e9PQiivOIiegG2ilg	{lastName=, abbrevation=, subDistrict=, street=, postCode= 382435, state=, houseNumber=, houseName=DENA BANK AT AND PO DIST AHMEDABAD PIN, village=HARANIYAV TAL DASKORI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.2524997	yLv4FhXYQOiNzOkQaMDgsQ	{lastName=, abbrevation=, subDistrict=, street=, postCode= 282005, state=, houseNumber=, houseName=HINDI SANSTHAN MARG AGRA, village=, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.4491082	1JukswvsS1GNnzByhMGNJw	{lastName=, abbrevation=, subDistrict=, street=, postCode= 382835, state=AT & POST GUJARAT, houseNumber=, houseName=, village=LODRA LODRA MEHSANA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.2031912	t-cvyWRoSfmTXsRmMvaS3Q	{lastName=, abbrevation=, subDistrict=, street= NEAR BHAGAT, postCode=, state=DISTRICT PRADESH, houseNumber=221 712, houseName= TOWER, village=A. P. SINGH CHAURAHA RASRA BALLIA UTTAR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.4491082	RsjQgzrWR4K3z8m8UXJROA	{lastName=, abbrevation=, subDistrict=, street=, postCode= 641035, state=, houseNumber= COMPLEX, houseName= MEDICAL TRUST HOSPITAL, village=SRI KANCHI KAMAKOTI SIVANANDAPURAM COIMBATORE, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.1863817	coFKgsUHSWewtiJm3MX5MA	{lastName=, abbrevation=, subDistrict= G., street=, postCode=683105 683105`, state=KERALA NO, houseNumber=0484 2837276., houseName=CBI TEXTILES LTD. DIST TEL, village=T. N. ERUMATHALA ALUVA  ERUMATHALA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.3528328	n2OLexHvRTGru9xITev2ug	{lastName=, abbrevation=, subDistrict= KAVADIGUDA, street=, postCode=, state= LAKSHMI, houseNumber=1 3 176/35/229/7 BHAGYA, houseName=, village=NAGAR HYDERABAD, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.1608496	hOXytXJHShaN3E1-kmwqAw	{lastName=, abbrevation=, subDistrict=, street= DIGGI ROAD, postCode=, state=DIST JAIPUR RAJASTHAN, houseNumber= 302029., houseName= SANGANER TOWER, village=NEAR MALPURA GATE SANGANER, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.3447565	vzqnP3eDTsecE7HEPzQK9g	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName=O. PALLIPORTDISTRICT, village=SREE NARAYAN BHAVAN P. ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.146312	qTcEW7fFS_6QrezD7nwaiw	{lastName=, abbrevation=, subDistrict=, street=CHAKRATA ROAD BALLUPUR CHOWK, postCode= 248001, state=, houseNumber=, houseName= AB TOWER, village=196 BY 1 DEHRADUN, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.2755432	Rz11M-EJSIaLG30QGRxNUw	{lastName=, abbrevation=, subDistrict=, street= MAIN ROAD, postCode= 625515, state= TAMILNADU, houseNumber= 129, houseName=O. DIST, village=P. SEELAYAMPATTI TALUKA PERIAKULAM THENI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.146312	DtHL4emGRzi4Pe_bg4xhwQ	{lastName=, abbrevation=, subDistrict=, street=TRANSPORT BRANCH SANGITA ROAD, postCode= 452001, state=, houseNumber= 2, houseName= TOWER CHAURAHA, village=SNEHNAGAR SAPNA INDORE, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.257384	Ze1xkLefRJCVBbHFIVLxUQ	{lastName=, abbrevation=, subDistrict=, street=NEAR LITTLE MC ROAD, postCode= 683572, state= DISTRICT, houseNumber=, houseName=SP TOWERS FIRST FLOOR FLOWER HOSPITAL, village=ANGAMALY ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.1238286	z6AV9g6dSrqq1dXNXpDUmA	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= DISTRICT, houseNumber=, houseName=KEEZHILLAM P. O., village=MANOOR ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.2094489	7njs7TQGRNORsU-aMtoMSg	{lastName=, abbrevation=, subDistrict=, street=, postCode= 282005, state=, houseNumber= 504, houseName=D AGRA, village= KAMLA NAGAR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.0881622	yLMhIde2Sw2RouvqtD5ZDQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= BIHAR, houseNumber=846 004, houseName= TOWER CHOWK, village=P O LALBAGH DARBHANGA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.2094489	WqSO6dJhTEubYGXyW8L3eA	{lastName=, abbrevation=, subDistrict=, street=, postCode= 282005, state=, houseNumber= 37/2/4, houseName=SANJAY PLACE AGRA PIN, village=, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.0881622	ahX992NoRHS992rgMlK56g	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=1 SECTOR9/INS PRADESH 201012, houseName= ALPHA TOWER, village=10VASUNDHARA GHAZIABAD UTTAR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.1994796	MXx2qhh2TseNFOi_LVV53g	{lastName=, abbrevation=, subDistrict=, street= MAIN ROAD, postCode= 682301, state= KERALA, houseNumber= XVII/324A, houseName= ABHAYAM BUILDING, village=DOOR NO S. N. FUNCTION THRIPUNITHURA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.0881622	WDZU99NeTUaIUTwvWZERkw	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber= 247001(U., houseName= NIRMALA TOWER, village=NEAR HASANPUR CHUNGIDELHI ROAD SAHARANPUR P), initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.1988508	RjjCylA2QcaUUzhrpQQkmA	{lastName=, abbrevation=, subDistrict=, street= ROAD, postCode= 683101, state= KERALA, houseNumber= 659, houseName=MUKKATH PLAZA BYE PASS JUNCTION DIST, village=ALWAYE ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.0536231	XsC3kmU2SRuZ88Y0h6sAiA	{lastName=, abbrevation=, subDistrict=, street=, postCode= 682002, state=, houseNumber= PB 222, houseName=PALACE ROAD ), village=COCHIN BRANCH MATTANCHERY (ERNAKULAM DT. CNCHIN, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.1555995	poTaK354Q5Wl20gQlyDqBA	{lastName=, abbrevation=, subDistrict= G., street=, postCode=683105 683105`, state=KERALA NO, houseNumber=0484 2837276., houseName=CBI TEXTILES LTD. DIST TEL, village=T. N. ERUMATHALA ALUVA  ERUMATHALA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.0447137	wW0Gylk2Rgabm6j36QS3Fg	{lastName=, abbrevation=, subDistrict=, street= JESSORE ROAD, postCode= 700124, state=, houseNumber= 57/A NORTH, houseName=, village=BARASAT KOLKATA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.1526582	u2TdGt10RxWB8NhD0CW6RQ	{lastName=, abbrevation=, subDistrict=, street= MG ROAD, postCode= 682016, state=, houseNumber=, houseName= COLLIS ESTATE, village=2 ND FLOOR RAVIPURAM ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.0364516	72isrQWKSGWaHPQ8gnxnbA	{lastName=, abbrevation=, subDistrict=, street= KADAVANTHARA ROAD, postCode= 682017, state= KERALA, houseNumber=, houseName=PARIYATH BUILDING ERNAKULAM DISTRICT, village=KUMARANSAN JUNCTION KALOOR KALOOR (PO), initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.1520998	jhFOtLM8RdWNw0iq6is1pQ	{lastName=, abbrevation=, subDistrict=, street= RADIUM ROAD, postCode= 834001, state=, houseNumber=, houseName= TARA TOWER, village= RANCHI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+1.0196279	iOI122e-QC-cVcCJg2Td0A	{lastName=, abbrevation=, subDistrict=, street= S A ROAD, postCode= 682020, state=, houseNumber=, houseName=KHALLIL BUILDING COCHIN, village= KADAVANTHRA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.1382397	chYqTTo8Q_WdJk85__IdVQ	{lastName=, abbrevation=, subDistrict=, street=GURU TEGH ROAD, postCode=, state=, houseNumber=, houseName=CLOCK TOWER, village=BAHADUR MARKETG. T. NEAR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.9935087	2oMAAICETuWTvTYbOvsdlg	{lastName=, abbrevation=, subDistrict=, street= ROAD, postCode=, state= JHARKHAND, houseNumber=, houseName=HEM TOWER DIST, village=LUBY CIRCULAR DHANBAD, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.0880787	HtVSx1ceQ5Kg5Dp_tfTjZA	{lastName=, abbrevation=, subDistrict=, street= NEAR BHAGAT, postCode=, state=DISTRICT PRADESH, houseNumber=221 712, houseName= TOWER, village=A. P. SINGH CHAURAHA RASRA BALLIA UTTAR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.9886176	EsClMgMQS7OogdB9luCeRw	{lastName=, abbrevation=, subDistrict=, street=, postCode= 600035, state=, houseNumber=NO. 1, houseName=SESHACHALAM CENTRE 6TH AND 7TH FLOOR DOOR, village=636 BY ANNA SALAI NANDANAM CHENNAI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.0827994	kS1XKKKUSBeU4r2hUdMWAA	{lastName=, abbrevation=, subDistrict=, street=, postCode= 305921, state=DIST. RAJSAMAND RAJASTHAN, houseNumber=, houseName= SHUBHAM TOWER, village= BHIM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.9886176	Uj72YdHtRCWxoV1Ql0RcZQ	{lastName=, abbrevation=, subDistrict=, street=, postCode= 641035, state=, houseNumber= COMPLEX, houseName= MEDICAL TRUST HOSPITAL, village=SRI KANCHI KAMAKOTI SIVANANDAPURAM COIMBATORE, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.0530064	_IKwZxY8SSi-E0P0ICIvOA	{lastName=, abbrevation=, subDistrict=, street=, postCode= 600035, state=, houseNumber=NO. 1, houseName=SESHACHALAM CENTRE 6TH AND 7TH FLOOR DOOR, village=636 BY ANNA SALAI NANDANAM CHENNAI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.9859124	9yYNtGgnQRSJwEYSC09XVg	{lastName=, abbrevation=, subDistrict=, street= MAIN ROAD, postCode= 625515, state= TAMILNADU, houseNumber= 129, houseName=O. DIST, village=P. SEELAYAMPATTI TALUKA PERIAKULAM THENI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.0530064	P4_jJ8hoSSeTPYVDlCMzUw	{lastName=, abbrevation=, subDistrict=, street=, postCode= 392035, state= GUJARAT, houseNumber=, houseName=O. DIST, village=TALUKA AMOD P. SARBHAN BHARUCH, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.959366	6okJlHMtQfKzK6waMRhHCA	{lastName=, abbrevation=, subDistrict=, street=ROAD ROADS, postCode= 636004, state=, houseNumber= 5/250, houseName=E VIJAYA TOWER JUNCTION MAIN FIVE, village= SALEM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-1.0255421	YbPasY5oSASMMmVg2ZmS2Q	{lastName=, abbrevation=, subDistrict= JABALPUR, street= DUMNA ROAD, postCode= 482005, state=DIST. PRADESH, houseNumber=, houseName= O., village=IIITD CAMPUS MEHGAWAN P. KHAMARIA MADHYA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.9498963	up2UdyElT1WCtBx3vJZ_Vw	{lastName=, abbrevation=, subDistrict=, street= MAIN ROAD, postCode=, state= PRADESH, houseNumber=, houseName=BALAJI TOWER CHAND ANGAON, village=CHHINDWARA MADHYA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.99482894	2B0BpKdmT_CPEQ0Done7Jg	{lastName=, abbrevation=, subDistrict=, street=, postCode= 282005, state=, houseNumber= 2/48, houseName=C GRIVS COMPLEX AGRA, village= KAMLA NAGAR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.9439434	sJvX2gjlTjacsUMT2XuLSA	{lastName=, abbrevation=, subDistrict= G., street= ROAD, postCode=, state=, houseNumber=, houseName= COLLIS ESTATE, village=2ND FLOORM. ERNAKULAM KOCHI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.99482894	Aj7GO94gSrqcx0Ev9KHp8A	{lastName=, abbrevation=, subDistrict=, street=, postCode= 282005, state=, houseNumber=, houseName=HINDI SANSTHAN MARG AGRA, village=, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.9353588	TswYDWmYQ1itbXWmB4tzVw	{lastName=, abbrevation=, subDistrict=, street=ROYAL CROWN ROAD, postCode=, state= TO, houseNumber=NO. 104, houseName=FIRST FLOOROPPOSITE CLOCK TOWER, village= ASHOKA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.98979175	by4y4baWSnyMp8mn_UGmsA	{lastName=, abbrevation=, subDistrict=, street= SUNDER NAGAR, postCode= 174401, state=MAHARAJA LAKSHMAN SEN PRADESH, houseNumber= NO 1, houseName=MEMORIAL COLLEGE DIST, village=MANDI HIMACHAL, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.93534696	yUa630NMQ-aEhQeDIsthQA	{lastName=, abbrevation=, subDistrict=, street=, postCode= 382835, state=AT & POST GUJARAT, houseNumber=, houseName=, village=LODRA LODRA MEHSANA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.98356736	lGcbDOc6QsKeW6L_8HnEJw	{lastName=, abbrevation=, subDistrict=, street= ROAD, postCode=, state= JHARKHAND, houseNumber=, houseName=HEM TOWER DIST, village=LUBY CIRCULAR DHANBAD, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.93534696	-wYCSUCoSXu7gP-oa1uM1w	{lastName=, abbrevation=, subDistrict=, street=, postCode= 392035, state= GUJARAT, houseNumber=, houseName=O. DIST, village=TALUKA AMOD P. SARBHAN BHARUCH, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.9835673	PW3YCZOzT_irK6CqZju-Ng	{lastName=, abbrevation=, subDistrict=CIRCLE TONK, street= ROAD, postCode=, state=, houseNumber= 9, houseName=PLOT NO. MAKER TOWER, village=BASANT BAHARNEAR GOPALPURA JAIPUR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.9093049	P9WeXRh0RyuuZVHmRfEQ-Q	{lastName=, abbrevation=, subDistrict= JABALPUR, street= DUMNA ROAD, postCode= 482005, state=DIST. PRADESH, houseNumber=, houseName= O., village=IIITD CAMPUS MEHGAWAN P. KHAMARIA MADHYA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.94198704	Dupu3V7eQ2KTN3nePszwlw	{lastName=, abbrevation=, subDistrict=, street= BANK ROAD, postCode= 273001, state=, houseNumber=, houseName=1ST FLOOR TOWER PIN, village=A. D. GORAKHPUR (U. P), initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.9014889	mieSYvjGRCedkCpXEt6KHQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber= 29/380 E N, houseName=MADHA BUILDINGS H BYPASS, village=47THYKOODAM VYTILLA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.937013	G99BgqcZSuyGF-MkV7fxNQ	{lastName=, abbrevation=, subDistrict=, street= DIGGI ROAD, postCode=, state=DIST JAIPUR RAJASTHAN, houseNumber= 302029., houseName= SANGANER TOWER, village=NEAR MALPURA GATE SANGANER, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.9014889	lGPVR7RLRxS8MFLlheFtCg	{lastName=, abbrevation=, subDistrict=, street= ROADDISTRICT, postCode=, state=, houseNumber=, houseName=, village=PARAVUR MARKET ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.92812693	hIlO0jK6S92Mml3s9teCMA	{lastName=, abbrevation=, subDistrict=, street=ROYAL CROWN ROAD, postCode=, state= TO, houseNumber=NO. 104, houseName=FIRST FLOOROPPOSITE CLOCK TOWER, village= ASHOKA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.9014889	xC1BwMQ-SGWzsyJzM_Tm-g	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= DISTRICT, houseNumber=, houseName=, village=KALYANI CHAMBERS KUNDUNGASSERYNAYARAMBAKAM ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.92812693	5vQvrGJNTuev_HM87g23Lg	{lastName=, abbrevation=, subDistrict=, street=SUBHASH CHOWK STATION ROAD, postCode= 464221, state= VIDISHA, houseNumber=, houseName=BAJAJ TOWER DIST PIN, village= GANJBASODA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.8880321	Q07MRsFDQVeDdctuxviueA	{lastName=, abbrevation=, subDistrict=, street= ROAD, postCode=, state=, houseNumber= 26, houseName=NIRMAL TOWER I ST N, village=C. B. I. FLOOR BARA KHAMBA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.927498	P4j5YixwTn-ziDdiVVud0A	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName= DIST, village=PANDAPPILLYVIA ARAKUZHA ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.87720895	L0FLtR3TQZa3iL5CPV0ZqQ	{lastName=, abbrevation=, subDistrict=, street=, postCode= 248001, state= UTTARAKHAND, houseNumber=, houseName=NEAR CLOCK TOWER, village=ALLAHABAD BANK 1 GANDHI ROAD DEHRADUN, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.9254556	lsZRWopzSs2ILKN69nN2Zw	{lastName=, abbrevation=, subDistrict=, street=CHAKRATA ROAD BALLUPUR CHOWK, postCode= 248001, state=, houseNumber=, houseName= AB TOWER, village=196 BY 1 DEHRADUN, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.87720895	S-BN-ENBRi2nVGrwO9YvBw	{lastName=, abbrevation=, subDistrict=, street= ATTAR SINGH STREET, postCode=, state=, houseNumber=5 141 001, houseName=NEAR CLOCK TOWER, village= LUDHIANA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.91851354	WOclXUNhTJO3aKPsXrnw0w	{lastName=, abbrevation=, subDistrict= G., street=NEAR SHIPYARD PROJECT ROAD, postCode= 682016, state= KERALA, houseNumber=NO. 1728, houseName= DIST, village=P. B. RAVIPURAM TALUKA PARNER M. PERUMANOOR KOCHI ERNAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.87720895	N58D9nBLQBOl0dLtE5j3HA	{lastName=, abbrevation=, subDistrict=, street=, postCode= 201001, state=, houseNumber=, houseName=CLOCKTOWER BRANCH CLOCK TOWER, village= GHAZIABAD, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.8792259	tTZ1zhs5QkG9PrLteEsS6Q	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=1 SECTOR9/INS PRADESH 201012, houseName= ALPHA TOWER, village=10VASUNDHARA GHAZIABAD UTTAR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.87720895	-WCilsW6RkyLIbvhxAewxg	{lastName=, abbrevation=, subDistrict=, street=, postCode= 331506, state= RAJASTHAN, houseNumber=, houseName=AIRTEL TOWER DISTT CHURU, village=BALAJI TOWER NEAR SALASAR TH SUJANGARH., initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.8792259	vtqQ5OflRSSmbZw9nXuM1w	{lastName=, abbrevation=, subDistrict=, street=, postCode= 384310, state= GUJARAT, houseNumber=, houseName= NEAR TOWER, village=TAL. VISNAGAR VALAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.87720895	pLARZPuNR02VjOFi42aliA	{lastName=, abbrevation=, subDistrict=AINTHAPALLI SAMBALPUR, street=, postCode= 768004, state=, houseNumber=, houseName=GROUND FLOOR HANSINI TOWER, village=, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.8792259	M9bzvUIeRZ-gPdgfovSRqQ	{lastName=, abbrevation=, subDistrict= HIRAPUR, street=, postCode= 826001, state= JHARKHAND, houseNumber=, houseName= SRIHARI TOWER, village=GYAN MUKHERJEE RD DHANBAD DHANBAD, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.87720895	FPyu9mAMSiGipxIz9hjELA	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName=TOWER CHOWKVADAL DIST, village= JUNAGARH, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.87851095	Nb8dFpzqRm2jYgql6PyZ1A	{lastName=, abbrevation=, subDistrict=, street= ROAD, postCode=, state=, houseNumber= 26, houseName=NIRMAL TOWER I ST N, village=C. B. I. FLOOR BARA KHAMBA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.87720895	XsOWx_rDTM6duVnNOAQtwQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state= PUNJAB, houseNumber=, houseName= DIVINE TOWER SCO, village=GURU RAM DASS 30 31 PUDA COMPLEX JALANDHAR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.87268656	9s8PnjepQM6jpsGYhmm3IA	{lastName=, abbrevation=, subDistrict= KHAMBHAT, street= STNROAD, postCode=, state=, houseNumber=, houseName= NEAR GAWARA TOWER, village=, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.87720895	tJwoBptVSPK2j104dGxP1w	{lastName=, abbrevation=, subDistrict=, street=, postCode= 452010, state=, houseNumber= 32, houseName=OMEGA TOWER PIN, village=3RD FLOOR MECHANIC NAGAR BHAMORI INDORE, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.87268656	RiQHepXiSkCQmWrerBDVkA	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName=TOWER CHOWKVADAL DIST, village= JUNAGARH, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.8443602	o30fbxh2RdqLbo-PKGnjpw	{lastName=, abbrevation=, subDistrict=, street= SURAVARAM ROAD, postCode=, state=, houseNumber=, houseName=KALIDINDI TOWERS OPP TO SAI MANDIR TUNI, village=, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.87268656	KNNLdC5dQ9CcfWqOd0gT1Q	{lastName=, abbrevation=, subDistrict= G., street=, postCode= 492007, state= CHHATISGARH, houseNumber=62 1, houseName=ASHOK TOWER DIST, village=M. I. SECTOR CHOWK SHANKAR NAGAR RAIPUR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.82092935	ymrfGRytTxWnPqJZX7DvBQ	{lastName=, abbrevation=, subDistrict=, street= SUNDER NAGAR, postCode= 174401, state=MAHARAJA LAKSHMAN SEN PRADESH, houseNumber= NO 1, houseName=MEMORIAL COLLEGE DIST, village=MANDI HIMACHAL, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.87268656	Am5nxr97RS68RYEDM3ME6A	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber= 37, houseName=RAJ TOWER SINDHI COLONY, village=SHASTRI NAGAR JODHPUR RAJASTAN, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.8194407	y5Ls6K85R8Kt07xHxv1LPw	{lastName=, abbrevation=, subDistrict=, street=, postCode= 282005, state=, houseNumber= 504, houseName=D AGRA, village= KAMLA NAGAR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.87268656	AgycVOXnR56fRwQX5zR3XA	{lastName=, abbrevation=, subDistrict=, street=, postCode= 452010, state=, houseNumber= 32, houseName=OMEGA TOWER PIN, village=3RD FLOOR MECHANIC NAGAR BHAMORI INDORE, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.7984895	C2eW5beHT_mYdQJzFBeEIw	{lastName=, abbrevation=, subDistrict=, street=NEAR .RAHUL ANANDNAGARR ROAD, postCode= 380015, state=, houseNumber= RATNADEEP COMPLEX, houseName=I TOWER, village= AHMEDABAD, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.8390452	3_XMCVGkToeUYmMRNz3vkA	{lastName=, abbrevation=, subDistrict=, street=TRANSPORT BRANCH SANGITA ROAD, postCode= 452001, state=, houseNumber= 2, houseName= TOWER CHAURAHA, village=SNEHNAGAR SAPNA INDORE, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.7984895	_T9uRqXWTemZCpBRn9fB7A	{lastName=, abbrevation=, subDistrict=, street=GURU TEGH ROAD, postCode=, state=, houseNumber=, houseName=CLOCK TOWER, village=BAHADUR MARKETG. T. NEAR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.83693063	-j6PnHU5TBSkHseP49AsnA	{lastName=, abbrevation=, subDistrict=, street= SURJYA ROAD, postCode= 799001, state=, houseNumber=, houseName=OPP TOWER HOTEL DIST WEST, village=DENA BANK AGARTALA BRANCH AGARTALA AGARTALA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.7937061	SSq4fslbSeW1rHZei52ABw	{lastName=, abbrevation=, subDistrict=, street=MAIN ROAD NEAR PRINCES COLLEGE, postCode=, state= CHATTISGARH, houseNumber= 492015., houseName= NOBLE TOWER, village=DEVPURI RAIPUR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.83693063	NFX-pLjOQauaJHg3ZvKGsQ	{lastName=, abbrevation=, subDistrict= JEHAM CIRCLE, street= GANGAPUR ROAD, postCode= 422013, state=, houseNumber=, houseName=SHOP NO 1 RUSHIRAJ TOWER, village= NASIK, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.78255546	ChQ7Yo9KQCKDZzIc7Yzn-Q	{lastName=, abbrevation=, subDistrict= JAGALUR MAHALINGAPPA, street= ROAD, postCode= 577501, state= KARNATKA, houseNumber= NO., houseName=GROUND FLOOR TOWER B D CHITRADURGA, village=1 & 2 23 WARD, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.8259221	nnu_sj0XQeWWQ2Ly_s07kw	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName= JAI LAXMI TOWERS, village=GANESH CHAUKDI ANAND, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.7822954	2TeVQs7eSAuwnXuSA6atFQ	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber=, houseName= JAI LAXMI TOWERS, village=GANESH CHAUKDI ANAND, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.8208071	rl9W1b7vQbmKQSVi-lbI5A	{lastName=, abbrevation=, subDistrict= C/O., street= MAIN ROAD, postCode=, state=, houseNumber=, houseName=BOI ZONAL OFFICE RANCHIPRADHAN TOWERS, village= RANCHI, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.78064996	BZKa1fb1SbqFRVRZ0qEsqQ	{lastName=, abbrevation=, subDistrict=, street=, postCode= 282005, state=, houseNumber= 2/48, houseName=C GRIVS COMPLEX AGRA, village= KAMLA NAGAR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.7989387	mX0QlLiiTai7jy498iYW7g	{lastName=, abbrevation=, subDistrict=, street= ROAD, postCode= 532005, state=, houseNumber=DOOR NO. 12 3 1/A WOMENS, houseName= COLLEGE, village= SIRKAKULAM, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.77173233	22BY6eONSuyXpSj4f6sMdw	{lastName=, abbrevation=, subDistrict=, street=, postCode= 695141, state= KERALA, houseNumber=, houseName=A R TOWER OPPOSITE TO, village=RAILWAY STATION VARKALA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.79777366	JLXiGum8SYiOEtEuEXCj7Q	{lastName=, abbrevation=, subDistrict= AMRAPALI CIRCLE, street=, postCode= 302021, state=, houseNumber=, houseName= JAGDAMBA TOWER, village=VAISHALI BRANCH VAISHALI NAGAR JAIPUR., initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.7679535	Mebrii5GRJiWphOes9XECQ	{lastName=, abbrevation=, subDistrict=, street= ROAD, postCode=, state=, houseNumber=, houseName=GROUND FLOOR NEEL KANTH TOWER1 C SCHEME, village=BHAWANI SINGH JAIPUR, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.79777366	UcDEwJERRpG2zX63aJ84PA	{lastName=, abbrevation=, subDistrict=, street= # 6, postCode=, state=, houseNumber=2 4, houseName=CLOCK TOWER, village=NEAR NALGONDA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.7602224	3h0jL3XKRd-nZolpJ-Iqbg	{lastName=, abbrevation=, subDistrict=, street= # 6, postCode=, state=, houseNumber=2 4, houseName=CLOCK TOWER, village=NEAR NALGONDA, initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
 ------------------------------
-0.79777366	XN92Sxx2SYKkhSVYoORI0Q	{lastName=, abbrevation=, subDistrict=, street=, postCode=, state=, houseNumber= 247001(U., houseName= NIRMALA TOWER, village=NEAR HASANPUR CHUNGIDELHI ROAD SAHARANPUR P), initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}
+0.7602224	Sav7RwTTTyCIUSC7-OSawg	{lastName=, abbrevation=, subDistrict= AMRAPALI CIRCLE, street=, postCode= 302021, state=, houseNumber=, houseName= JAGDAMBA TOWER, village=VAISHALI BRANCH VAISHALI NAGAR JAIPUR., initial=, age=-1, gender=-1, district=, salutation=, firstName=abc}

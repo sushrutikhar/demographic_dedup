@@ -70,10 +70,11 @@ public class indexSearch {
         CreateIndexRequestBuilder createIndexRequestBuilder = indices.prepareCreate(indexName);
         createIndexRequestBuilder.setSettings(settings);
         createIndexRequestBuilder.execute().actionGet();
+        client.admin().indices().prepareRefresh().execute().actionGet();
         System.err.println("Index :"+indexName+" is created successfully");
 	}
 	
-	public void addDoc(Client client,String indexName,String docType,String docId,UserDAO user) throws IOException
+	public void addDoc(Client client,String indexName,String docType,String docId,UserDTO user) throws IOException
 	{
 		IndexRequestBuilder indexRequestBuilder = client.prepareIndex(indexName,docType);//,docId);
 		XContentBuilder contentBuilder;
@@ -103,10 +104,10 @@ public class indexSearch {
 		//return response;  
 	}
 	
-	public void addDoc(Client client,String indexName,String docType,ArrayList<UserDAO> userList) throws Exception{
+	public void addDoc(Client client,String indexName,String docType,ArrayList<UserDTO> userList) throws Exception{
 		long numberDoc = getNumberDocs(client,indexName,docType);
 		client.admin().indices().prepareRefresh().execute().actionGet();
-		for(UserDAO user : userList){
+		for(UserDTO user : userList){
 			addDoc(client,indexName,docType,Long.toString(numberDoc+1),user);
 			numberDoc++;
 		}
@@ -114,7 +115,7 @@ public class indexSearch {
 		System.err.println("Documents added successfully");
 	}
 	
-	public SearchResponse searchDoc(Client client,String indexName,String docType,UserDAO user){
+	public SearchResponse searchDoc(Client client,String indexName,String docType,UserDTO user){
 		
 		System.out.println("\nSearching for User:"+user.toString()+"\n");
 		SearchResponse response = client.prepareSearch(indexName)

@@ -13,40 +13,33 @@ import static org.elasticsearch.common.settings.ImmutableSettings.Builder.EMPTY_
 
 
 public class testing {
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args) throws Exception{	
 		BasicConfigurator.configure();
-		ParseInputFile obj = new ParseInputFile("input.txt");
-		ArrayList<UserDAO> userList = obj.parse();
-		for(UserDAO user :userList){
+		String fileName = "input.txt";
+		if(args.length > 1)
+			fileName = args[0];
+		ParseInputFile obj = new ParseInputFile(fileName);
+		ArrayList<UserDTO> userList = obj.parse();
+		for(UserDTO user :userList){
 			System.out.println(user.toString());
 		}
 		indexSearch ES = new indexSearch();
-		String indexName = "demographic",docType = "data",clusterName="elasticsearch",hostName = "localhost";
+		String indexName = "demographic",docType = "data",clusterName="elasticsearch",hostName = "192.168.2.79";
 		int port = 9300;
 		Client client = ES.createClient(clusterName,hostName,port);
 		Tuple<Settings, Environment> initialSettings = InternalSettingsPreparer.prepareSettings(EMPTY_SETTINGS, true);
 
-
-                if (!initialSettings.v2().pluginsFile().exists()) {
-                     FileSystemUtils.mkdirs(initialSettings.v2().pluginsFile());
-                }
-                PluginManager pluginManager = new PluginManager(initialSettings.v2(), null, null, null);
-                pluginManager.getListInstalledPlugins();
-                initialSettings.v1().getClassLoader().loadClass("org.apache.log4j.Logger");
-                initialSettings.v1().getClassLoader().loadClass("org.elasticsearch.index.analysis.PhoneticTokenFilterFactory");
-
-	        if (!initialSettings.v2().pluginsFile().exists()) {
-	            FileSystemUtils.mkdirs(initialSettings.v2().pluginsFile());
-	        }
-	        PluginManager pluginManager = new PluginManager(initialSettings.v2(), null, null, null);
-	        pluginManager.getListInstalledPlugins();
-	        initialSettings.v1().getClassLoader().loadClass("org.apache.log4j.Logger");
-	        initialSettings.v1().getClassLoader().loadClass("org.elasticsearch.index.analysis.PhoneticTokenFilterFactory");
-
+        if (!initialSettings.v2().pluginsFile().exists()) {
+            FileSystemUtils.mkdirs(initialSettings.v2().pluginsFile());
+        }
+        PluginManager pluginManager = new PluginManager(initialSettings.v2(), null, null, null);
+        pluginManager.getListInstalledPlugins();
+        initialSettings.v1().getClassLoader().loadClass("org.apache.log4j.Logger");
+        initialSettings.v1().getClassLoader().loadClass("org.elasticsearch.index.analysis.PhoneticTokenFilterFactory");
 		ES.deleteIndex(client, indexName);
 		ES.createIndex(client, indexName);
 		ES.addDoc(client,indexName, docType,userList);
 		System.out.println("\n"+ES.getNumberDocs(client, indexName, docType));
-		SearchResponse response = ES.searchDoc(client, indexName, docType, userList.get(10));
+		SearchResponse response = ES.searchDoc(client, indexName, docType, userList.get(100));
 	}
 }
